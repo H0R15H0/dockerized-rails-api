@@ -16,7 +16,9 @@ docker-compose
 ``` bash
 $ git clone git@github.com:H0R15H0/rails-api.git api
 $ cd api
-$ docker-compose up --build
+$ docker-compose build
+$ docker-compose run --rm app rails db:create
+$ docker-compose up
 ```
 
 # Change remote repository
