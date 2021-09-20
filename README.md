@@ -2,8 +2,8 @@
 
 # Versions
 ```
-ruby '2.7.1'
-rails '6.0.3'
+ruby '2.7.2'
+rails '6.1.4'
 ```
 
 # Requirement
